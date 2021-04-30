@@ -28,5 +28,7 @@ We will be using A/B testing to decide the UI will will be choosing for the curr
 ## Testing Review
 
 We decided to use JEST because we were comfortable with this testing framework. Our first testing was smoke test (to test the initial testing).
+
 &nbsp;
+
 We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p) 

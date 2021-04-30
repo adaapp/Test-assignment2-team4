@@ -1,0 +1,23 @@
+{
+	"name": "test-assignment2-team4",
+	"version": "1.0.0",
+	"description": "## https://meet.google.com/uhs-uydk-gyh?authuser=0",
+	"main": "index.test.js",
+	"dependencies": {
+		"jest": "^26.6.3"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adaapp/Test-assignment2-team4.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adaapp/Test-assignment2-team4/issues"
+	},
+	"homepage": "https://github.com/adaapp/Test-assignment2-team4#readme"
+}

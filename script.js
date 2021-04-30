@@ -1,4 +1,7 @@
 function poundsToDollars(amount) {
+  if(typeof amount !== "string"){
+    throw new Error ("Error: You havent entered a number")
+  }
 	//Coverting from pounds to dollars
 	return amount * 1.39;
 }

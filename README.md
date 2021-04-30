@@ -24,3 +24,8 @@ As we are building a currency converter, it is important to check that the mathm
 ## UI Design
 
 We will be using A/B testing to decide the UI will will be choosing for the currecny converter. James will be creating a google form where the team will pick out the better UI out of the two designs.
+
+## Testing Review
+
+We decided to use JEST because we were comfortable with this testing framework. Our first testing was smoke test (to test the initial testing).
+We plan to first test the functions before starting on HTML.

@@ -29,17 +29,17 @@ Below are the two designs that have been created, these will then be placed in a
 
 ### Design 1:
 <div class="column">
-    <img src="Currency 1.png" alt="Snow" style="width:100%; ">
+    <img src="https://i.ibb.co/86Zb50Q/Currency-1.png" alt="Snow" style="width:100%; ">
 </div>
 
 ### Design 2:
 <div class="column">
-    <img src="Currency 2.png" alt="Forest" style="width:100%">
+    <img src="https://i.ibb.co/c1tBGrP/Currency-2.png" alt="Forest" style="width:100%">
 </div>
 
 ### Google Form Results:
 <div class="column">
-    <img src="CurrencyResults.png" alt="Forest" style="width:100%">
+    <img src="https://i.ibb.co/LxB7FTn/Currency-Results.png" alt="Forest" style="width:100%">
 </div>
 
 ## Testing Review

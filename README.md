@@ -28,16 +28,19 @@ We will be using A/B testing to decide the UI will will be choosing for the curr
 Below are the two designs that have been created, these will then be placed in a Google Form so that the team can decide on which of the two is most appropriate/beneficial.
 
 ### Design 1:
+
 <div class="column">
     <img src="https://i.ibb.co/86Zb50Q/Currency-1.png" alt="Snow" style="width:100%; ">
 </div>
 
 ### Design 2:
+
 <div class="column">
     <img src="https://i.ibb.co/c1tBGrP/Currency-2.png" alt="Forest" style="width:100%">
 </div>
 
 ### Google Form Results:
+
 <div class="column">
     <img src="https://i.ibb.co/LxB7FTn/Currency-Results.png" alt="Forest" style="width:100%">
 </div>
@@ -50,4 +53,4 @@ We decided to use JEST because we were comfortable with this testing framework. 
 
 &nbsp;
 
-We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p) 
+We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p)

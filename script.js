@@ -1,5 +1,5 @@
 function poundsToDollars(amount) {
-	if (ifNan(amount)) {
+	if (isNan(amount)) {
 		throw new Error('Error: You havent entered a number');
 	}
 	let amountToString = amount + '';
@@ -15,7 +15,7 @@ function poundsToDollars(amount) {
 
 function dollarsToPounds(amount) {
 	//Converting from Dollars to Pounds
-	if (ifNan(amount)) {
+	if (isNan(amount)) {
 		throw new Error('Error: You havent entered a number');
 	}
 	let amountToString = amount + '';

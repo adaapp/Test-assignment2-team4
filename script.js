@@ -11,7 +11,7 @@ function dollarsToPounds(amount){
   //Converting from Dollars to Pounds
   return amount*0.72;
 }
-module.exports = (testCurrencyConverter, dollarsToPounds);
+module.exports = (poundsToDollars, dollarsToPounds);
 
 
 

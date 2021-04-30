@@ -55,7 +55,7 @@ As shown in the results above, the majority votes chose the second option. We ch
 
 We decided to use JEST because we were comfortable with this testing framework. Our first testing was smoke test (to test the initial testing).
 
-We created a test to throw out an error hen a user puts a numerical amount with more than two decimal places.
+We created a test to throw out an error when a user puts a numerical amount with more than two decimal places. To do this, we checked if the inputted value was a string. This caused the test to fail as it did not check the number of decimals. We then fixed it to ensure that there are only two numbers after the decimal space.
 
 &nbsp;
 

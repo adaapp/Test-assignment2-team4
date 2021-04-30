@@ -29,7 +29,7 @@ Below are the two designs that have been created, these will then be placed in a
 
 ### Design 1:
 <div class="column">
-    <img src="Currency 1.png" alt="Snow" style="width:100%; ">
+    <img src="/adaapp/Test-assignment2-team4/blob/ReadMeUI/Currency%201.PNG?raw=true" alt="Snow" style="width:100%; ">
 </div>
 
 ### Design 2:

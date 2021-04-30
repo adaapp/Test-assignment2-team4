@@ -44,9 +44,15 @@ Below are the two designs that have been created, these will then be placed in a
 
 https://docs.google.com/forms/d/e/1FAIpQLSc7P46kY3y1qZsO-8r04ekQAPc0k2TGqmJHWf1DGV9p-H6hSg/viewform
 
+## UI Design Results
+
+As shown in the results above, the majority votes chose the second option. We chose to use a google form to capture the results as it was a simple way to recieve the feedback from the team. With this A/B testing method, we were able to provide the benefits of each sample. The second sample had a simpler and easy design so this is what we decided to choose.
+
 ## Testing Review
 
 We decided to use JEST because we were comfortable with this testing framework. Our first testing was smoke test (to test the initial testing).
+
+We created a test to throw out an error hen a user puts a numerical amount with more than two decimal places.
 
 &nbsp;
 

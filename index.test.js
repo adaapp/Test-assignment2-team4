@@ -14,10 +14,9 @@ describe('Describe testing poundToDollars function ', () => {
 	});
 	test('should return the data type number', () => {
 		expect(() => {
-			poundsToDollars('string');
+			poundsToDollars('hizxc');
 		}).toThrow('Error: You havent entered a number');
 	});
-
 	test('should throw an error if more than 2 decimal places are entered', () => {
 		expect(() => {
 			poundsToDollars(5.2982323);
@@ -28,5 +27,18 @@ describe('Describe testing poundToDollars function ', () => {
 describe('Describe testing dollarsToPounds function ', () => {
 	test('2 should convert to 2.78', () => {
 		expect(dollarsToPounds(2)).toBe(1.44);
+	});
+	test('should return the data type number', () => {
+		expect(typeof dollarsToPounds(5)).toEqual('number');
+	});
+	test('should return the data type number', () => {
+		expect(() => {
+			dollarsToPounds('hizxc');
+		}).toThrow('Error: You havent entered a number');
+	});
+	test('should throw an error if more than 2 decimal places are entered', () => {
+		expect(() => {
+			dollarsToPounds(5.2982323);
+		}).toThrow('Error: It should be 2 decimal places');
 	});
 });

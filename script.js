@@ -1,6 +1,6 @@
 
 
-function poundsToDolars(amount){
+function poundsToDollars(amount){
   //Coverting from pounds to dollars
     return amount*1.39;
 }

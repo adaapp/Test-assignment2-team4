@@ -12,6 +12,12 @@ describe('Describe testing poundToDollars function ', () => {
 	test('should return the data type number', () => {
 		expect(typeof poundsToDollars(5)).toEqual('number');
 	});
+  test('should return the data type number', () => {
+	expect(() => {
+			poundsToDollars("string");
+		}).toThrow("Error: You havent entered a number");
+	});
+	});
 
 	test('should throw an error if more than 2 decimal places are entered', () => {
 		expect(() => {

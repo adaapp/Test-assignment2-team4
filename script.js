@@ -9,8 +9,8 @@ function poundsToDollars(amount) {
 		// use number '3' because includes decimal point
 		throw new Error('Error: It should be 2 decimal places'); // if numAfterPoint is greater than 3 means there is more than 2 numbers after the decimal point, hence invalid currency
 	}
-		//Coverting from pounds to dollars
-		return amount * 1.39;
+	//Coverting from pounds to dollars
+	return (amount * 1.39).toFixed(2);
 }
 
 function dollarsToPounds(amount) {
@@ -25,8 +25,8 @@ function dollarsToPounds(amount) {
 		// use number '3' because includes decimal point
 		throw new Error('Error: It should be 2 decimal places'); // if numAfterPoint is greater than 3 means there is more than 2 numbers after the decimal point, hence invalid currency
 	}
-		//Coverting from pounds to dollars
-		return amount * 0.72;
+	//Coverting from pounds to dollars
+	return (amount * 0.72).toFixed(2);
 }
 
 module.exports = { poundsToDollars, dollarsToPounds };

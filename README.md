@@ -65,3 +65,9 @@ We decided to work on testing our individual functions before incooperating the 
 ## Enabling input currency
 
 Initially, our code did not allow the input numbers wiht two decimal places. We used the step button that allowed the number inputted to go up by 1 pence each time. This allows the user to input decimal numbers.
+
+
+## GitHub Pages:
+
+We have used GitHub pages which is a site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, and runs the files through a build process, and publishes a website. Here is the link to the GitHub pages:
+

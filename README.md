@@ -6,7 +6,7 @@
 
 Whilst working on our Assignment we had issues with GitHub as shown below GitHub reported outages with the Actions and Pages:
 <div class="column">
-    <img src="https://i.ibb.co/86Zb50Q/GitHubIssue.png" alt="Snow" style="width:100%; ">
+    <img src="https://imgur.com/a/zRagmNV" alt="Snow" style="width:100%; ">
 </div>
 
 ## Problem Statement

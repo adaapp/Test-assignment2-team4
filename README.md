@@ -69,5 +69,5 @@ Initially, our code did not allow the input numbers wiht two decimal places. We 
 
 ## GitHub Pages:
 
-We have used GitHub pages which is a site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, and runs the files through a build process, and publishes a website. Here is the link to the GitHub pages:
+We have used GitHub pages which is a site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, and runs the files through a build process, and publishes a website. Here is the link to the GitHub pages: https://adaapp.github.io/Test-assignment2-team4/
 

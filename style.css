@@ -1,19 +1,22 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Lucida Console', 'Courier New', monospace;
 }
 
 .container {
 	height: 200px;
 	width: 500px;
+	padding: 20px;
 	position: relative;
-	border: 3px solid green;
+	border: 3px solid black;
 	top: 50%;
+	background-color: rgb(153, 255, 255);
 }
 
 .center {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 55%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
@@ -21,6 +24,7 @@
 .vertical-center {
 	position: absolute;
 	top: 50%;
+	width: 5px;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -29,6 +33,23 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-ms-transform: translate(100%, -50%);
-	transform: translate(100%, -50%);
+	-ms-transform: translate(-100%, -50%);
+	transform: translate(300%, -50%);
 }
+
+.btn {
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+
+	padding: 10px;
+	gap: 30px;
+	height: 40px;
+	width: 100px;
+}
+
+.btn:hover {
+	color: white !important;
+	background-color: #293ce996 !important;
+}
+

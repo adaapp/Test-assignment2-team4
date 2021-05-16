@@ -60,3 +60,14 @@ We created a test to throw out an error when a user puts a numerical amount with
 &nbsp;
 
 We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p)
+<<<<<<< Updated upstream
+=======
+
+## Enabling input currency
+
+Initially, our code did not allow the input numbers wiht two decimal places. We used the step button that allowed the number inputted to go up by 1 pence each time. This allows the user to input decimal numbers.
+
+## GitHub Pages:
+
+We have used GitHub pages which is a site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, and runs the files through a build process, and publishes a website. Here is the link to the GitHub pages:
+>>>>>>> Stashed changes

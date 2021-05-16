@@ -2,6 +2,13 @@
 
 ## https://meet.google.com/uhs-uydk-gyh?authuser=0
 
+## Issues With GitHub
+
+Whilst working on our Assignment we had issues with GitHub as shown below GitHub reported outages with the Actions and Pages:
+<div class="column">
+    <img src="https://i.ibb.co/86Zb50Q/GitHubIssue.png" alt="Snow" style="width:100%; ">
+</div>
+
 ## Problem Statement
 
 We will be creating a currency converter. The MVP is that the converter would convert pounds to dollars and dollars to pounds.
@@ -65,7 +72,6 @@ We decided to work on testing our individual functions before incooperating the 
 ## Enabling input currency
 
 Initially, our code did not allow the input numbers wiht two decimal places. We used the step button that allowed the number inputted to go up by 1 pence each time. This allows the user to input decimal numbers.
-
 
 ## GitHub Pages:
 

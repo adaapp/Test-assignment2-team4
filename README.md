@@ -57,6 +57,7 @@ We decided to use JEST because we were comfortable with this testing framework. 
 
 We created a test to throw out an error when a user puts a numerical amount with more than two decimal places. To do this, we checked if the inputted value was a string. This caused the test to fail as it did not check the number of decimals. We then fixed it to ensure that there are only two numbers after the decimal space.
 
+We have created a describe block to convert pounds to dollars and dollars to pounds. Inside each block, we have created multiple assertions to test the input, output and erros being thrown. For example, we have tested that it returns the data type; number. We also tested that an error is thrown when more than two decimal places is entered. We also tested the basic logic of the currency converter, ensuring the converter converts £2 into $2.78.
 &nbsp;
 
 We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p)

@@ -5,14 +5,23 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Currency Converter</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<form class="GBPUSD">
-			<label for="GBP"> Enter GBP amount</label>
-			<input type="number" step="0.01"/>
-			<button type="submit">convert</button>
-			<div class="answer"></div>
-		</form>
+		<div class="container center">
+			<form class="GBPUSD">
+				<label for="GBP"> Enter GBP amount</label>
+				<div class="vertical-center">
+					<input type="number" step="0.01" />
+				</div>
+				<div class="center">
+					<button type="submit">convert</button>
+				</div>
+				<div class="vertical-center-right">
+					<div class="answer"></div>
+				</div>
+			</form>
+		</div>
 	</body>
 	<script src="script.js"></script>
 
@@ -29,3 +38,4 @@
 		});
 	</script>
 </html>
+

@@ -52,8 +52,11 @@
 	width: 100px;
 }
 
+
+
 .btn:hover {
 	color: white !important;
 	background-color: #293ce996 !important;
+	cursor: pointer;
 }
 

@@ -87,7 +87,7 @@ We have used GitHub pages which is a site hosting service that takes HTML, CSS, 
 
 We have also setup Github Actions to run our integration tests and make sure that they are passing.
 
-## Accesibility Report
+## Accessibility Report
 
 After using GitHub pages to create a webiste containing our currency converter, we were able to run an Accessibility Report using googles Lighthouse feature:
 

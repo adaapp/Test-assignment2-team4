@@ -7,10 +7,11 @@ test('This is a Smoke Test to test the tests are working', () => {
 
 describe('Describe testing poundToDollars function ', () => {
 	test('2 should convert to 2.78', () => {
-		expect(poundsToDollars(2)).toBe(2.78);
+		expect(poundsToDollars(2)).toBe(2.84);
+		expect(poundsToDollars(6.78)).toBeCloseTo(9.6, 1);
 	});
 	test('should return the data type number', () => {
-		expect(typeof poundsToDollars(5)).toEqual('number');
+		expect(typeof poundsToDollars(5)).toBe('number');
 	});
 	test('should return the data type number', () => {
 		expect(() => {
@@ -29,7 +30,7 @@ describe('Describe testing dollarsToPounds function ', () => {
 		expect(dollarsToPounds(2)).toBe(1.44);
 	});
 	test('should return the data type number', () => {
-		expect(typeof dollarsToPounds(5)).toEqual('number');
+		expect(typeof dollarsToPounds(5)).toBe('number');
 	});
 	test('should return the data type number', () => {
 		expect(() => {
@@ -42,3 +43,4 @@ describe('Describe testing dollarsToPounds function ', () => {
 		}).toThrow('Error: It should be 2 decimal places');
 	});
 });
+

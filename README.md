@@ -4,7 +4,7 @@
 
 ## Issues With GitHub
 
-Whilst working on our Assignment we had issues with GitHub as shown below GitHub reported outages with the Actions and Pages:
+Whilst working on our Assignment we had issues with GitHub as shown below GitHub reported outages with the Actions and Pages, this caused James to have an increased number of commits:
 <div class="column">
     <img src="https://i.ibb.co/r0T9JkR/Screenshot-2021-05-16-at-15-20-59.png" alt="Snow" style="width:100%; ">
 </div>
@@ -21,6 +21,10 @@ We will be creating a currency converter. The MVP is that the converter would co
 | Keseana Robinson | QA            |
 | Augustine Osagie | Developer     |
 | James Spencer    | Dev Ops       |
+
+## Coding Practice
+
+We will also create issues on GitHub to identify what tasks need completing. A coding standard will improve the readability and maintainence of the code, and it will also help us to detect errors quickly. We will achieve this by having standard variable and classes names,
 
 ## Testing
 
@@ -58,7 +62,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSc7P46kY3y1qZsO-8r04ekQAPc0k2TGqmJHWf1D
 
 As shown in the results above, the majority votes chose the second option. We chose to use a google form to capture the results as it was a simple way to recieve the feedback from the team. With this A/B testing method, we were able to provide the benefits of each sample. The second sample had a simpler and easy design so this is what we decided to choose.
 
-## Testing Review
+## Testing Strategy
 
 We decided to use JEST because we were comfortable with this testing framework. Our first testing was smoke test (to test the initial testing).
 
@@ -69,11 +73,26 @@ We have created a describe block to convert pounds to dollars and dollars to pou
 
 We decided to work on testing our individual functions before incooperating the HTML/CSS so we can focus on making our functions work. We also discussed the different testing we could include. For example, because this is a currency convertor we have to ensure it is being written in the correct formation (2.d.p)
 
+To ensure good coding practice throughout this project we are going to regularly go through code reviews as a team on pull requests before they are merged into the main branch.
+
+Our workflow is to take it in turns to each work on an issue whilst the other members of the team guide those who are coding. Once the code has been completed, it will be commited to a seperate branch on GitHub to be reviewed by the team and checked for conflicts.
+
 ## Enabling input currency
 
 Initially, our code did not allow the input numbers wiht two decimal places. We used the step button that allowed the number inputted to go up by 1 pence each time. This allows the user to input decimal numbers.
 
-## GitHub Pages:
+## GitHub Pages & Actions:
 
 We have used GitHub pages which is a site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, and runs the files through a build process, and publishes a website. Here is the link to the GitHub pages: https://adaapp.github.io/Test-assignment2-team4/
 
+We have also setup Github Actions to run our integration tests and make sure that they are passing.
+
+## Accesibility Report
+
+After using GitHub pages to create a webiste containing our currency converter, we were able to run an Accessibility Report using googles Lighthouse feature:
+
+<div class="column">
+    <img src="https://ibb.co/4Tpmhpr" alt="Forest" style="width:100%">
+</div>
+
+From this we were able to gauge that our application is accessible and functions correctly.

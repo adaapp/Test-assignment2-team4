@@ -25,6 +25,17 @@
 	transform: translate(-50%, -50%);
 }
 
+.down {
+	position: absolute;
+	top: 100%;
+	left: 55%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+p {
+	width: 50%;
+}
+
 .vertical-center {
 	position: absolute;
 	top: 50%;
@@ -51,8 +62,6 @@
 	height: 40px;
 	width: 100px;
 }
-
-
 
 .btn:hover {
 	color: white !important;

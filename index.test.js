@@ -23,6 +23,12 @@ describe('Describe testing poundToDollars function ', () => {
 			poundsToDollars(5.2982323);
 		}).toThrow('Error: It should be 2 decimal places');
 	});
+
+	test('should not allow negative numbers ', () => {
+		expect(() => {
+			poundsToDollars(-5.29);
+		}).toThrow('Error: Please Enter Valid currency');
+	});
 });
 
 describe('Describe testing dollarsToPounds function ', () => {
@@ -42,5 +48,10 @@ describe('Describe testing dollarsToPounds function ', () => {
 			dollarsToPounds(5.2982323);
 		}).toThrow('Error: It should be 2 decimal places');
 	});
-});
 
+	test('should not allow negative numbers ', () => {
+		expect(() => {
+			poundsToDollars(-78);
+		}).toThrow('Error: Please Enter Valid currency');
+	});
+});

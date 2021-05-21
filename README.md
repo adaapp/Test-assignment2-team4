@@ -77,6 +77,8 @@ To ensure good coding practice throughout this project we are going to regularly
 
 Our workflow is to take it in turns to each work on an issue whilst the other members of the team guide those who are coding. Once the code has been completed, it will be commited to a seperate branch on GitHub to be reviewed by the team and checked for conflicts.
 
+Also added additional testing on both interface and console side to prevent user from entering negative numbers. So did this on test side by not allowing the input currency to be less than 0 and on the user interface we created a minimum of 0. This is important as -5 is not a valid currency.
+
 ## Enabling input currency
 
 Initially, our code did not allow the input numbers wiht two decimal places. We used the step button that allowed the number inputted to go up by 1 pence each time. This allows the user to input decimal numbers.
@@ -102,4 +104,4 @@ From this we were able to gauge that our application is accessible and functions
     <a href="https://ibb.co/gr3N2Wj"><img src="https://i.ibb.co/wdRVkQ0/Screenshot-2021-05-21-at-20-14-49.png" alt="Screenshot-2021-05-21-at-20-14-49" border="0"></a>
 </div>
 
-We went for option A because most of us agreed on it and was easy to configure and we able to correctly match the styling. However, if we had more time, we could look at changing this to a drop-down list as we begin to add more currencies but it works correctly. 
+We went for option A because most of us agreed on it and was easy to configure and we able to correctly match the styling. However, if we had more time, we could look at changing this to a drop-down list as we begin to add more currencies but it works correctly.  For future, we could also add the currency symbols so it is more useful for the user

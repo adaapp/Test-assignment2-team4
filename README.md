@@ -96,3 +96,10 @@ After using GitHub pages to create a webiste containing our currency converter, 
 </div>
 
 From this we were able to gauge that our application is accessible and functions correctly.
+
+## Final Product
+<div class="column">
+    <a href="https://ibb.co/gr3N2Wj"><img src="https://i.ibb.co/wdRVkQ0/Screenshot-2021-05-21-at-20-14-49.png" alt="Screenshot-2021-05-21-at-20-14-49" border="0"></a>
+</div>
+
+We went for option A because most of us agreed on it and was easy to configure and we able to correctly match the styling. However, if we had more time, we could look at changing this to a drop-down list as we begin to add more currencies but it works correctly. 

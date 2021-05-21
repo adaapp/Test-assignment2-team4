@@ -50,6 +50,8 @@ p {
 	left: 50%;
 	-ms-transform: translate(-100%, -50%);
 	transform: translate(300%, -50%);
+	min-width: 2%;
+	max-width: 6%;
 }
 
 .btn {

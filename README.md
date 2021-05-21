@@ -92,7 +92,7 @@ We have also setup Github Actions to run our integration tests and make sure tha
 After using GitHub pages to create a webiste containing our currency converter, we were able to run an Accessibility Report using googles Lighthouse feature:
 
 <div class="column">
-    <img src="https://ibb.co/4Tpmhpr" alt="Forest" style="width:100%">
+    <img src="https://i.ibb.co/J7HBDHJ/Lighthouse-Report.png" alt="Forest" style="width:100%">
 </div>
 
 From this we were able to gauge that our application is accessible and functions correctly.

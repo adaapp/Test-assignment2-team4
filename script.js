@@ -8,7 +8,7 @@ function poundsToDollars(amount) {
 	let amountToString = amount + '';
 	decimalPoint = amountToString.indexOf('.');
 	numAfterPoint = amountToString.substring(decimalPoint);
-	if (numAfterPoint.length > 3 decimalPoint !== -1) {
+	if (numAfterPoint.length > 3 && decimalPoint !== -1) {
 		// use number '3' because includes decimal point
 		throw new Error('Error: It should be 2 decimal places'); // if numAfterPoint is greater than 3 means there is more than 2 numbers after the decimal point, hence invalid currency
 	}
@@ -28,7 +28,7 @@ function dollarsToPounds(amount) {
 	let amountToString = amount + '';
 	decimalPoint = amountToString.indexOf('.');
 	numAfterPoint = amountToString.substring(decimalPoint);
-	if (numAfterPoint.length > 3 decimalPoint !== -1) {
+	if (numAfterPoint.length > 3  && decimalPoint !== -1) {
 		// use number '3' because includes decimal point
 		throw new Error('Error: It should be 2 decimal places'); // if numAfterPoint is greater than 3 means there is more than 2 numbers after the decimal point, hence invalid currency
 	}

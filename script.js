@@ -10,7 +10,7 @@ function poundsToDollars(amount) {
 		throw new Error('Error: It should be 2 decimal places'); // if numAfterPoint is greater than 3 means there is more than 2 numbers after the decimal point, hence invalid currency
 	}
 	//Coverting from pounds to dollars
-	return parseFloat((amount * 1.39).toFixed(2));
+	return parseFloat((amount * 1.42).toFixed(2));
 }
 
 function dollarsToPounds(amount) {
@@ -29,4 +29,10 @@ function dollarsToPounds(amount) {
 	return parseFloat((amount * 0.72).toFixed(2));
 }
 
-module.exports = { poundsToDollars, dollarsToPounds };
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+	module.exports = { poundsToDollars, dollarsToPounds };
+} else {
+	window.poundsToDollars = poundsToDollars;
+	window.dollarsToPounds = dollarsToPounds;
+}
+

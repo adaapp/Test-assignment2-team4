@@ -2,6 +2,9 @@ function poundsToDollars(amount) {
 	if (isNaN(amount)) {
 		throw new Error('Error: You havent entered a number');
 	}
+	if (amount < 0) {
+		throw new Error('Error: Please Enter Valid currency');
+	}
 	let amountToString = amount + '';
 	decimalPoint = amountToString.indexOf('.');
 	numAfterPoint = amountToString.substring(decimalPoint);
@@ -17,6 +20,10 @@ function dollarsToPounds(amount) {
 	//Converting from Dollars to Pounds
 	if (isNaN(amount)) {
 		throw new Error('Error: You havent entered a number');
+	}
+
+	if (amount < 0) {
+		throw new Error('Error: Please Enter Valid currency');
 	}
 	let amountToString = amount + '';
 	decimalPoint = amountToString.indexOf('.');
